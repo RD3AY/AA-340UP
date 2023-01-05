@@ -1,0 +1,21 @@
+
+
+
+
+ gvGraph.getGridLabelRenderer().setGridStyle( GridLabelRenderer.GridStyle.NONE );Если вы используете это все линии сетки будут удалены
+ gvGraph.getGridLabelRenderer().setGridStyle(GridLabelRenderer.GridStyle.HORIZONTAL);Для установки горизонтальной линии видимой
+ gvGraph.getGridLabelRenderer().setGridStyle( GridLabelRenderer.GridStyle.VERTICAL);Для вертикальной линии видимой
+
+ NumberFormat nf = NumberFormat.getInstance();
+        nf.setMinimumFractionDigits(3);   установка цифровой разметке 1000.000
+        nf.setMinimumIntegerDigits(2);
+
+        gvGraph.getGridLabelRenderer().setLabelFormatter(new DefaultLabelFormatter(nf, nf));
+        gvGraph.getGridLabelRenderer().reloadStyles();
+
+         // legend
+                series_SWR.setTitle("КСВ");
+                series_R.setTitle("R");
+                series_X.setTitle("X");
+                gvGraph.getLegendRenderer().setVisible(true);
+                gvGraph.getLegendRenderer().setAlign(LegendRenderer.LegendAlign.TOP);

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AA-340UP</string>
+    <string name="exit">ВЫХОД</string>
+    <string name="bluetooth_on_off">ON/OFF Bluetooth</string>
+    <string name="bluetooth_off">Bluetooth выключен</string>
+    <string name="start_search">Начать поиск</string>
+    <string name="bluetooth_not_supported">Bluetooth не поддерживается</string>
+    <string name="stop_search">Остановить поиск</string>
+    <string name="disconnect">Отключиться</string>
+    <string name="connecting">Соединение...</string>
+    <string name="please_wait">Подождите, пожалуйста...</string>
+    <string name="Thu_exit">Нажмите ещё раз, чтобы выйти.</string>
+    <string name="scanning">Сканирование</string>
+
+</resources>
